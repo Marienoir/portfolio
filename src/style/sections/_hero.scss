@@ -18,10 +18,10 @@
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
    background-image: url("/src/assets/project.jpg");
-   background-color: rgb(51, 47, 47);
+   background-color: rgb(73, 67, 67);
    background-blend-mode:multiply ;
-  background-position: center;
-  background-size: cover; 
+   background-position: center;
+   background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -45,7 +45,7 @@
       line-height: 1.5;
     }
     @include respond(phone-xs) {
-      font-size: 2.8rem;
+      font-size: 2.6rem;
     }
   }
 
